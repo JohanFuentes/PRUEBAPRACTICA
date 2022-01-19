@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Prueba</title>
+</head>
+<body>
+    
+    <div id="containerNav">
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div id="logo1BarraNavegacion">
+                            <svg width="11" height="25" viewBox="0 0 11 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.54601 7.56198V5.49399C7.52547 5.34414 7.53828 5.19162 7.58353 5.0473C7.62878 4.90298 7.70534 4.77042 7.80775 4.65912C7.91017 4.54782 8.0359 4.46054 8.17596 4.40347C8.31603 4.3464 8.46697 4.32095 8.618 4.32898H10.78V0.0169983L7.129 0.000976562C3.077 0.000976562 2.156 3.216 2.156 5.276V7.56299H0V12.953H2.156V24.81H7.54601V11.874H10.534L10.709 10.474L10.976 7.56L7.54601 7.56198Z" fill="#FB6834"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <div id="logo2ABarraNavegacion">
+                            <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.261 24.809H6.99197C5.3291 24.8071 3.73488 24.1457 2.55905 22.9699C1.38322 21.7941 0.721823 20.1999 0.719971 18.537V6.27197C0.721823 4.6091 1.38322 3.01488 2.55905 1.83905C3.73488 0.663224 5.3291 0.00185278 6.99197 0H19.257C20.9198 0.00185278 22.5141 0.663224 23.6899 1.83905C24.8657 3.01488 25.5271 4.6091 25.529 6.27197V18.537C25.5271 20.1992 24.8663 21.7928 23.6913 22.9685C22.5164 24.1442 20.9231 24.8061 19.261 24.809ZM6.99197 1.95099C5.84638 1.95231 4.74808 2.40799 3.93802 3.21805C3.12796 4.02811 2.67228 5.12638 2.67096 6.27197V18.537C2.67228 19.6826 3.12796 20.7809 3.93802 21.5909C4.74808 22.401 5.84638 22.8567 6.99197 22.858H19.257C20.4026 22.8567 21.5009 22.401 22.3109 21.5909C23.121 20.7809 23.5766 19.6826 23.578 18.537V6.27197C23.5766 5.12638 23.121 4.02811 22.3109 3.21805C21.5009 2.40799 20.4026 1.95231 19.257 1.95099H6.99197Z" fill="#FB6834"/>
+                            </svg>
+                        </div>
+                        <div id="logo2BBarraNavegacion">
+                            <svg style="margin-left: -2px;" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.12792 12.66C5.89079 12.66 4.68148 12.2932 3.65285 11.6059C2.62422 10.9186 1.82247 9.94167 1.34905 8.79872C0.875621 7.65576 0.75177 6.39811 0.993121 5.18476C1.23447 3.97141 1.8302 2.85687 2.70497 1.9821C3.57975 1.10732 4.69429 0.511563 5.90764 0.270212C7.12099 0.0288617 8.37867 0.152743 9.52162 0.626169C10.6646 1.0996 11.6415 1.90131 12.3288 2.92994C13.0161 3.95857 13.3829 5.16792 13.3829 6.40504C13.3811 8.0634 12.7215 9.6533 11.5488 10.8259C10.3762 11.9986 8.78628 12.6582 7.12792 12.66ZM7.12792 2.10105C6.27746 2.10105 5.4461 2.35323 4.73897 2.82572C4.03184 3.29821 3.48072 3.96978 3.15526 4.7555C2.8298 5.54122 2.74462 6.40582 2.91054 7.23994C3.07646 8.07406 3.48599 8.84023 4.08736 9.4416C4.68872 10.043 5.45493 10.4525 6.28905 10.6184C7.12317 10.7843 7.98773 10.6992 8.77346 10.3737C9.55918 10.0483 10.2307 9.49712 10.7032 8.78999C11.1757 8.08286 11.4279 7.2515 11.4279 6.40104C11.4258 5.26117 10.9721 4.16857 10.1662 3.36247C9.3603 2.55636 8.26779 2.10243 7.12792 2.10005V2.10105Z" fill="#FB6834"/>
+                            </svg>
+                        </div>
+                        <div id="logo2CBarraNavegacion">
+                            <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.95696 3.67694C1.63125 3.67694 1.31287 3.58034 1.04204 3.39941C0.771213 3.21848 0.560098 2.96132 0.435411 2.66043C0.310724 2.35954 0.278039 2.02844 0.341508 1.70898C0.404977 1.38952 0.561741 1.09604 0.791978 0.86566C1.02222 0.635283 1.31561 0.478365 1.63503 0.414702C1.95445 0.351039 2.28557 0.38352 2.58653 0.508025C2.8875 0.632529 3.14479 0.843449 3.32588 1.11416C3.50698 1.38488 3.60376 1.70323 3.60396 2.02893C3.60369 2.46575 3.43011 2.88463 3.12132 3.1936C2.81254 3.50258 2.39378 3.67641 1.95696 3.67694ZM1.95696 2.00491C1.95033 2.00491 1.94394 2.00755 1.93926 2.01224C1.93457 2.01692 1.93193 2.02331 1.93193 2.02994C1.93193 2.05794 1.98195 2.05794 1.98195 2.02994C1.98208 2.02657 1.98153 2.0232 1.98033 2.02005C1.97914 2.0169 1.97733 2.01402 1.97499 2.0116C1.97266 2.00917 1.96985 2.00724 1.96675 2.00592C1.96365 2.0046 1.96033 2.00393 1.95696 2.00394V2.00491Z" fill="#FB6834"/>
+                            </svg>
+                        </div>             
+                    </a>
+                    <a class="navbar-brand" href="#">
+                            <div id="logo3BarraNavegacion">
+                            <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.8351 2.23796C22.955 2.62283 22.0224 2.87427 21.0681 2.98396C22.071 2.3977 22.8247 1.46472 23.1871 0.360977C22.2405 0.915556 21.2063 1.30479 20.129 1.51198C19.6755 1.0366 19.13 0.658461 18.5258 0.400589C17.9215 0.142716 17.2711 0.0105062 16.6141 0.0119778C15.3471 0.00239164 14.1282 0.496301 13.2253 1.38515C12.3224 2.27399 11.8094 3.48501 11.7991 4.75197C11.7991 5.11607 11.84 5.47901 11.9211 5.83397C10.0136 5.74252 8.14605 5.2548 6.43744 4.40187C4.72883 3.54894 3.21661 2.3495 1.99707 0.879959C1.56881 1.60101 1.34318 2.42434 1.34406 3.26298C1.3458 4.04675 1.54263 4.81775 1.91675 5.50645C2.29087 6.19516 2.83052 6.7799 3.48706 7.20796C2.72324 7.18445 1.97571 6.9813 1.30505 6.61497V6.67497C1.30515 7.26338 1.41716 7.84639 1.63507 8.39296C1.93227 9.13774 2.41129 9.79622 3.02844 10.3082C3.6456 10.8202 4.38118 11.1694 5.16803 11.324C4.45817 11.513 3.71499 11.5407 2.99304 11.405C3.3091 12.3525 3.91205 13.1783 4.71832 13.768C5.52459 14.3576 6.49426 14.6819 7.49304 14.696C5.46235 16.2532 2.90459 16.9574 0.363037 16.659C2.57257 18.0541 5.13295 18.7927 7.74603 18.789C10.8633 18.8503 13.9045 17.8227 16.3456 15.8832C18.7868 13.9436 20.4752 11.2135 21.1201 8.16298C21.3352 7.22442 21.4455 6.26489 21.449 5.30199C21.449 5.09599 21.4491 4.88997 21.4351 4.68797C22.3751 4.02136 23.188 3.19154 23.8351 2.23796Z" fill="#FB6834"/>
+                            </svg>
+                        </div>
+                    </a>
+                    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div id="container-ul-nav">
+                  <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active link-nav" aria-current="page" href="#">LOREM IPSUM</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-nav"  href="#">LOREM IPSUM</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-nav"  href="#">LOREM IPSUM</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-nav">LOREM IPSUM</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </nav>
+
+    </div>
+
+    <div id="containerCarousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div id="containerImgCarousel" class="carousel-inner">
+            <div class="carousel-item active" style="height: 823px;">
+
+                <div class="row-img">
+
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-1.fna.fbcdn.net/v/t39.30808-6/272082832_5037107213008201_1464785796351990056_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeH1sraUWEq7hTfe3idmSjv6PU-gTJY3Ru89T6BMljdG77LsScheJHPOb-APFFX5Idj2RnThpyNomckBqdqe42PV&_nc_ohc=fmJFAXGvO5UAX-UKKAO&_nc_zt=23&_nc_ht=scontent.fscl13-1.fna&oh=00_AT_8LJ100c1o8mRvR6Bni62QSyvwsc8P8chL_Pil9hnHfQ&oe=61ECE8CF" alt="...">
+                        <div class="centrado">
+                            <H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button>
+                        </div>
+                    </div>
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272011902_5037107123008210_2980899390846996215_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeGsjMTCeb-b1fhEbi58Bv2gV-jDicUeHvdX6MOJxR4e9xReGKJzcHwj6_ogK987suK_dIXd70dJi-yydyevWRkS&_nc_ohc=JDdazoFCOycAX9odqGt&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT9eVB5mc2ugqpMdmgwY6qe15hMD3ETZqivgU6Dut4ncUg&oe=61EC5DD8" alt="...">
+                        <div class="centrado2">
+                            <H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="carousel-item" style="height: 823px;">
+                <div class="row-img">
+
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-1.fna.fbcdn.net/v/t39.30808-6/272082832_5037107213008201_1464785796351990056_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeH1sraUWEq7hTfe3idmSjv6PU-gTJY3Ru89T6BMljdG77LsScheJHPOb-APFFX5Idj2RnThpyNomckBqdqe42PV&_nc_ohc=fmJFAXGvO5UAX-UKKAO&_nc_zt=23&_nc_ht=scontent.fscl13-1.fna&oh=00_AT_8LJ100c1o8mRvR6Bni62QSyvwsc8P8chL_Pil9hnHfQ&oe=61ECE8CF" alt="...">
+                        <div class="centrado"><H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button></div>
+                    </div>
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272011902_5037107123008210_2980899390846996215_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeGsjMTCeb-b1fhEbi58Bv2gV-jDicUeHvdX6MOJxR4e9xReGKJzcHwj6_ogK987suK_dIXd70dJi-yydyevWRkS&_nc_ohc=JDdazoFCOycAX9odqGt&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT9eVB5mc2ugqpMdmgwY6qe15hMD3ETZqivgU6Dut4ncUg&oe=61EC5DD8" alt="...">
+                        <div class="centrado2">
+                            <H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 823px;">
+                <div class="row-img">
+
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-1.fna.fbcdn.net/v/t39.30808-6/272082832_5037107213008201_1464785796351990056_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeH1sraUWEq7hTfe3idmSjv6PU-gTJY3Ru89T6BMljdG77LsScheJHPOb-APFFX5Idj2RnThpyNomckBqdqe42PV&_nc_ohc=fmJFAXGvO5UAX-UKKAO&_nc_zt=23&_nc_ht=scontent.fscl13-1.fna&oh=00_AT_8LJ100c1o8mRvR6Bni62QSyvwsc8P8chL_Pil9hnHfQ&oe=61ECE8CF" alt="...">
+                        <div class="centrado">
+                            <H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button></div>
+                    </div>
+                    <div class="columna-img">
+                        <img src="https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272011902_5037107123008210_2980899390846996215_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeGsjMTCeb-b1fhEbi58Bv2gV-jDicUeHvdX6MOJxR4e9xReGKJzcHwj6_ogK987suK_dIXd70dJi-yydyevWRkS&_nc_ohc=JDdazoFCOycAX9odqGt&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT9eVB5mc2ugqpMdmgwY6qe15hMD3ETZqivgU6Dut4ncUg&oe=61EC5DD8" alt="...">
+                        <div class="centrado2">
+                            <H3 class="text-img-carousel">Lorem ipsum dolor sit amet,</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">consectetuer adipiscing</H3>
+                            <H3 class="text-img-carousel" style="font-weight: bold;">elit</H3>
+                            <button type="button" class="btn btn-dark button-img-carousel" style="display: block; border-radius: 0;">CONOCE MÁS</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="containerTextAndImg">
+        <div id="containerTextAndImg2">
+            <div class="card mb-3" id="containerColumnaTextAndImg">
+                <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="card-body" id="containerTextTextAndImg">
+                        <p id="text1ContainerTextAndImg" class="card-text">LOREM</p>
+                        <p id="text2ContainerTextAndImg" class="card-text">IPSUM DOLOR</p>
+                        <p id="text3ContainerTextAndImg" class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta provident nobis vero beatae placeat commodi animi deserunt itaque fugiat rerum corrupti rem est.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://scontent.fscl13-1.fna.fbcdn.net/v/t39.30808-6/272047038_5037111409674448_4407093721575975562_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeFNl0f46dnLNSi-ulAT6D4t7lIGO2E0FUnuUgY7YTQVSbG4-XC-v_h1uhMwbg0EMviMXtMoSCwBEfXL3EQrQK5A&_nc_ohc=V1bVgApZwFoAX9q1GvU&_nc_zt=23&_nc_ht=scontent.fscl13-1.fna&oh=00_AT820EBR3166I_STUpg8ri4L2v7tHm_aAUfmNg4OQLSOWQ&oe=61ECB3F0" class="img-fluid rounded-start" alt="...">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <div id="containerTextAndAccordion">
+
+        <div id="containerTextAccordion2">
+            <div class="card mb-3" id="containerColumnaTextAccordion">
+                <div class="row g-0">
+                <div class="col-md-6" style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');">
+                    <div class="card-body" id="containerTextTextAndAccordion">
+                        <p id="text1ContainerTextAndAccordion" class="card-text">LOREM</p>
+                        <p id="text2ContainerTextAndAccordion" class="card-text">IPSUM DOLOR</p>
+                        <p id="text3ContainerTextAndAccordion" class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta provident nobis vero beatae placeat commodi animi deserunt itaque fugiat rerum corrupti rem est.</p>
+                    </div>
+                </div>
+                <div class="col-md-6" style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');">
+                    <div class="accordion" id="accordionExample" >
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne" >
+                            <button style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p class="textAccordion" >LOREM <span style="font-weight: bold;"> IPSUM DOLOR</span> </p>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magnam ratione, asperiores est perspiciatis laudantium et, voluptate facilis qui commodi dicta alias ullam maiores deserunt mollitia cum nesciunt tempore vero?
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="textAccordion">LOREM <span style="font-weight: bold;"> IPSUM DOLOR</span> </p>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magnam ratione, asperiores est perspiciatis laudantium et, voluptate facilis qui commodi dicta alias ullam maiores deserunt mollitia cum nesciunt tempore vero?
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="textAccordion">LOREM <span style="font-weight: bold;"> IPSUM DOLOR</span> </p>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-image: url('https://scontent.fscl13-2.fna.fbcdn.net/v/t39.30808-6/272048525_5037111439674445_1459487982782584752_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHypEWlhw6rJIFSq7cvj0b89rle-wKYd3_2uV77Aph3f-5_j1YlpQRdn8KTS5YngOWEr9noJT4crZ1WNrD3D-XW&_nc_ohc=Xd-p3_fPOZwAX9eTh_z&_nc_zt=23&_nc_ht=scontent.fscl13-2.fna&oh=00_AT-EylouZRumU0TxFjMQr0yqmMqb2YtHECN3eJYDk1ivJQ&oe=61EBF5EF');">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magnam ratione, asperiores est perspiciatis laudantium et, voluptate facilis qui commodi dicta alias ullam maiores deserunt mollitia cum nesciunt tempore vero?
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="containerEmail">
+        <div id="containerFormEmail">
+            <form class="row g-3">
+                <div id="containerTextEmail" class="col-auto">
+                    <p id="textEmail1">LOREM IPSUM DOLOR</p>
+                    <p id="textEmail2">LOREM IPSUM DOLOR</p>
+                </div>
+                <div class="col-auto">
+                <label for="staticEmail2" class="visually-hidden">Email</label>
+                <input type="text" class="form-control-plaintext" id="emailInput" placeholder="EMAIL" style="border-bottom: solid #fff; width: 465px;">
+                </div>
+                <div class="col-auto" id="containerButtonEmail">
+                <button type="submit" id="buttonEmail" class="btn btn-primary mb-3">Suscríbite</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="containerForm">
+        
+        <div id="containerFormAndH2">
+            <h2 id="h2Form">LOREM IPSUM DOLOR</h2>
+
+            <form>
+                <div class="row mb-3">
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Nombre">
+                </div>
+                </div>
+                <div class="row mb-3">
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+                </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                    <textarea type="email" class="form-control" id="inputEmail3" placeholder="Mensaje" style="height: 143px;"></textarea>
+                    </div>
+                </div>
+                <button id="buttonform" type="submit" class="btn btn-primary">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="containerFooter">
+
+        <div id="containerLogoFooter">
+
+            <svg id="logoPartA" width="223" height="161" viewBox="0 0 223 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.14912 85.9636C-0.991879 80.7219 -0.646545 69.6281 6.80279 64.8736L105.124 2.04756C107.03 0.821323 109.248 0.166754 111.514 0.161289C113.781 0.155825 116.002 0.799697 117.914 2.01673L217.154 64.8366C224.659 69.5849 225.004 80.7466 217.801 85.9882L118.574 158.2C114.343 161.283 108.701 161.265 104.477 158.169L6.14912 85.9574V85.9636ZM13.4443 75.2582L111.537 12.5864L210.556 75.2644L210.586 75.2829L210.593 75.3014C210.64 75.3995 210.665 75.5069 210.667 75.6159C210.672 75.7321 210.65 75.848 210.605 75.9551C210.605 75.9736 210.593 75.9859 210.593 75.9859L210.549 76.0229L111.544 148.056L13.4505 76.0229C13.4346 76.0124 13.4201 76 13.4073 75.9859L13.3888 75.9489C13.3461 75.8433 13.3272 75.7296 13.3333 75.6159C13.3345 75.5069 13.3598 75.3995 13.4073 75.3014L13.4135 75.2829L13.4443 75.2582Z" fill="white"/>
+            </svg>
+            <svg id="logoPartB" width="128" height="47" viewBox="0 0 128 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M69.9137 2.3562L127.443 38.7704L116.713 46.5774L63.5374 12.9197L10.8802 46.565L0.224243 38.7334L57.1241 2.38704C59.0303 1.1608 61.2478 0.506231 63.5144 0.500767C65.781 0.495303 68.0016 1.13917 69.9137 2.3562Z" fill="white"/>
+            </svg>
+            <svg id="logoPartC" width="223" height="101" viewBox="0 0 223 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.7948 0.094793L25.4508 7.92646L13.4443 15.5916C13.4333 15.5989 13.423 15.6072 13.4135 15.6163L13.4073 15.6348C13.3606 15.731 13.3354 15.8362 13.3333 15.9431C13.3263 16.0681 13.3495 16.1929 13.4011 16.307C13.4029 16.3112 13.405 16.3153 13.4073 16.3193L13.4505 16.3563L111.544 88.3891L210.549 16.3563L210.593 16.3193L210.599 16.307L210.611 16.2885C210.655 16.1809 210.673 16.0651 210.667 15.9493C210.665 15.8403 210.64 15.7329 210.593 15.6348L210.586 15.6163L210.556 15.5978L198.346 7.8648L209.076 0.0639648L217.154 5.17614C224.659 9.92447 225.004 21.0861 217.801 26.3278L118.574 98.5333C114.343 101.617 108.701 101.598 104.477 98.5025L6.14912 26.2908C-0.991879 21.0491 -0.646545 9.96147 6.80279 5.2008L14.7948 0.094793Z" fill="white"/>
+            </svg>
+                    
+        </div>
+        <div id="containerTextFooter">
+
+            <p id="text1Footer">LOREM IPSUMLOREM IPSUM</p>
+            <p id="text2Footer">LOREM IPSUMLOREM IPSUM</p>
+            <p id="text3Footer">LOREM IPSUMLOREM IPSUM</p>
+            <p id="text4Footer">LOREM IPSUMLOREM IPSUM</p>
+
+        </div>
+        <div id="containerIconsFooter">
+
+            <svg id="iconFooter1" width="16" height="35" viewBox="0 0 16 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.558 10.58V7.68597C10.5293 7.47631 10.5472 7.2629 10.6105 7.06097C10.6739 6.85905 10.781 6.6736 10.9243 6.51788C11.0676 6.36216 11.2435 6.24003 11.4395 6.16019C11.6355 6.08034 11.8467 6.04476 12.058 6.056H15.083V0.0229797L9.974 0C4.305 0 3.016 4.49998 3.016 7.38098V10.581H0V18.122H3.014V34.712H10.555V16.612H14.735L14.979 14.656L15.353 10.579L10.558 10.58Z" fill="white"/>
+            </svg>
+            <svg id="iconFooter2A" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M26.083 34.712H8.922C6.59536 34.7096 4.3647 33.7844 2.71942 32.1393C1.07415 30.4942 0.148643 28.2636 0.145996 25.937V8.776C0.148379 6.44919 1.07375 4.21836 2.71906 2.57306C4.36436 0.927756 6.59519 0.00238254 8.922 0H26.083C28.4097 0.00264672 30.6404 0.928088 32.2856 2.57333C33.9309 4.21858 34.8564 6.44927 34.859 8.776V25.937C34.8564 28.2636 33.9309 30.4942 32.2856 32.1393C30.6403 33.7844 28.4096 34.7096 26.083 34.712ZM8.922 2.72998C7.31916 2.73183 5.78252 3.36946 4.64923 4.50293C3.51595 5.6364 2.87857 7.17316 2.87698 8.776V25.937C2.87857 27.5398 3.51595 29.0766 4.64923 30.2101C5.78252 31.3435 7.31916 31.9811 8.922 31.983H26.083C27.686 31.9814 29.2229 31.3439 30.3564 30.2104C31.4899 29.0769 32.1274 27.54 32.129 25.937V8.776C32.1274 7.17299 31.4899 5.63606 30.3564 4.50256C29.2229 3.36906 27.686 2.73157 26.083 2.72998H8.922Z" fill="white"/>
+            </svg>
+            <svg id="iconFooter2B" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.502 18.1041C7.77102 18.1041 6.07893 17.5908 4.63967 16.6291C3.20041 15.6674 2.07863 14.3006 1.41622 12.7013C0.753798 11.1021 0.580471 9.34239 0.918169 7.64467C1.25587 5.94695 2.08941 4.38749 3.3134 3.1635C4.53739 1.93951 6.09685 1.10596 7.79457 0.768267C9.49229 0.430569 11.252 0.603895 12.8512 1.26631C14.4505 1.92873 15.8174 3.05047 16.779 4.48973C17.7407 5.92899 18.254 7.62112 18.254 9.3521C18.2514 11.6725 17.3284 13.897 15.6877 15.5378C14.0469 17.1785 11.8224 18.1014 9.502 18.1041ZM9.502 3.3301C8.31096 3.3301 7.14667 3.68328 6.15636 4.34499C5.16605 5.00669 4.39419 5.94719 3.9384 7.04756C3.48261 8.14794 3.36336 9.35878 3.59572 10.5269C3.82808 11.6951 4.4016 12.7681 5.24379 13.6103C6.08598 14.4525 7.15901 15.026 8.32717 15.2584C9.49532 15.4907 10.7062 15.3715 11.8065 14.9157C12.9069 14.4599 13.8474 13.6881 14.5091 12.6977C15.1708 11.7074 15.524 10.5431 15.524 9.3521C15.5211 7.75623 14.8856 6.22661 13.7567 5.09853C12.6279 3.97045 11.0979 3.33594 9.502 3.33409V3.3301Z" fill="white"/>
+            </svg>
+            <svg id="iconFooter2C" width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.058 4.73793C2.60199 4.73753 2.15635 4.6019 1.77745 4.34816C1.39855 4.09442 1.1034 3.73399 0.929399 3.31248C0.755393 2.89097 0.710342 2.42731 0.799913 1.98018C0.889483 1.53305 1.10966 1.12254 1.4326 0.800581C1.75554 0.478621 2.16672 0.259673 2.61412 0.171461C3.06152 0.0832499 3.52505 0.129751 3.94603 0.305037C4.36701 0.480322 4.72653 0.776534 4.97911 1.1562C5.2317 1.53587 5.366 1.98193 5.36501 2.43794C5.36289 3.0485 5.11893 3.63333 4.68654 4.06441C4.25415 4.49548 3.66856 4.73767 3.058 4.73793ZM3.058 2.39793C3.04872 2.39793 3.03981 2.40162 3.03325 2.40819C3.02669 2.41475 3.023 2.42365 3.023 2.43294C3.023 2.47194 3.093 2.47194 3.093 2.43294C3.09225 2.42418 3.08823 2.41604 3.08174 2.41011C3.07526 2.40418 3.06679 2.40089 3.058 2.40092V2.39793Z" fill="white"/>
+            </svg>
+            <svg id="iconFooter3" width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M33 3.32898C31.7684 3.86732 30.4634 4.21886 29.128 4.37198C30.5315 3.55155 31.5862 2.24571 32.093 0.700957C30.7685 1.47719 29.3215 2.02201 27.814 2.31198C27.179 1.64776 26.4156 1.11959 25.5701 0.759611C24.7247 0.399633 23.8149 0.215341 22.896 0.217955C21.1233 0.204908 19.418 0.896276 18.1549 2.14007C16.8918 3.38387 16.1742 5.0783 16.16 6.85095C16.1601 7.36043 16.2175 7.86829 16.331 8.36496C13.6621 8.23686 11.0492 7.55434 8.65863 6.36087C6.26806 5.16739 4.15227 3.48911 2.44598 1.43295C1.84674 2.44174 1.53096 3.59362 1.53198 4.76697C1.53473 5.8636 1.81037 6.9423 2.33411 7.90579C2.85784 8.86928 3.61319 9.68729 4.53198 10.286C3.46325 10.2529 2.41736 9.96857 1.479 9.45596V9.53998C1.47986 10.362 1.63661 11.1764 1.94098 11.94C2.35738 12.9815 3.02781 13.9023 3.89117 14.6184C4.75454 15.3346 5.78339 15.8233 6.88397 16.04C5.89053 16.3047 4.85042 16.3436 3.83997 16.154C4.28285 17.4785 5.12644 18.6327 6.25403 19.4568C7.38162 20.2809 8.73747 20.7342 10.134 20.754C7.29252 22.9331 3.71341 23.9186 0.156982 23.501C3.24845 25.453 6.83082 26.4868 10.487 26.482C14.8483 26.5667 19.1028 25.1284 22.5181 22.4147C25.9334 19.701 28.2959 15.8816 29.199 11.614C29.4997 10.3017 29.654 8.96019 29.659 7.61395C29.659 7.32595 29.653 7.03797 29.639 6.75497C30.9552 5.82313 32.0935 4.66276 33 3.32898Z" fill="white"/>
+            </svg>
+                
+                            
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
